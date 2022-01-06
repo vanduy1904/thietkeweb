@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script Swash Caps&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Rounded+Mplus 1c Bold&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="body">
+      
+      <div class="form-login"></div>
+      <div class="form-login2"></div>
+      <div class="btn-google">
+        <div class="btn-google-icon"></div>
+        <span class="btn-google-txt">Google</span>
+      </div>
+      <div class="btn-facebook">
+        <div class="btn-facebook-icon"></div>
+        <span class="btn-facebook-txt">Facebook</span>
+      </div>
+      <div class="option">
+        <div class="option-left"></div>
+        <div class="option-right"></div>
+        <span class="option-txt">hoặc</span>
+      </div>
+      <span class="forgot-txt">Quên mật khẩu?</span><span  class="regis-txt">Đăng kí</span>
+      <input id="username" class="input-email" placeholder="Nhập email"></input>
+      <input id="password" type="password" placeholder="Nhập mật khẩu" class="input-pass"></input>
+      <div class="login-btn">
+        <button type="button" onclick="Login()" class="btn-login"><span class="login-txt">Đăng nhập</span></button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-contact">
+          <span class="footer-contact-txt">Contact</span>
+          <div class="footer-contact-des">
+            <div class="footer-contact-call">
+              <span class="footer-contact-txtcall">Call: +0388829018</span>
+            </div>
+            <span class="footer-contact-time">Thời gian : Từ 8 a.m đến 4 p.m</span><span class="footer-contact-add">Địa chỉ : Hà Đông, Hà
+              Nội.</span>
+          </div>
+        </div>
+        <div class="signup-form">
+          <span class="signup-txt">Sign up</span>
+          <div class="signup-input">
+            <input placeholder="Nhập email" id="newUser" class="signup-user">
+             
+            </input>
+            <input placeholder="Nhập mật khẩu" type = "password" id="newPassword" class="signup-pass">
+             
+            </input>
+            <button type="button" onclick="registerUser()" class="signup-btn">
+              <span class="signup-btn-txt">Đăng kí</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-logo">
+        <div class="footer-logo-des">
+          <div class="footer-logo-spe">
+            <div class="footer-logo-fb">
+
+            </div>
+            <div class="footer-logo-tt">
+
+            </div>
+            <div class="footer-logo-ins">
+
+            </div>
+            <div class="footer-logo-yt">
+
+            </div>
+            <div class="footer-logo-gg">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-logo">
+      <div class="logo"></div>
+    </div>
+    <div class="header-txt1"><span class="text1-description">VIMILK</span></div>
+    <div class="header-txt2"><span class="text2-description">Đăng nhập</span></div>
+    <div class="header-txt3"><span class="text3-description">Giới thiệu</span></div>
+    <div class="header-txt4"><span class="text4-description">Liên hệ </span></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1072 @@
+/* reset CSS */
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #e5e5e5;
+	box-sizing: border-box;
+}
+.container {
+  overflow: hidden;
+}
+.container {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 3029px;
+  position: absolute;
+}
+
+/* CSS for header */
+.header {
+  width: 100%;
+  height: 780px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-image: url(images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 100%;
+  height: 780px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header-content {
+  width: 519px;
+  height: 421px;
+  position: absolute;
+  left: 447px;
+  top: 220px;
+}
+.header-content-title {
+  color: rgba(255, 255, 255, 1);
+  width: 261px;
+  height: 133px;
+  position: absolute;
+  left: 129px;
+  top: 0px;
+  font-family: Oleo Script Swash Caps;
+  text-align: center;
+  font-size: 96px;
+  letter-spacing: 0;
+}
+.header-content-about {
+  color: rgba(255, 255, 255, 1);
+  width: 519px;
+  height: 174px;
+  position: absolute;
+  left: 0px;
+  top: 147px;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+.header-btn {
+  width: 220px;
+  height: 86px;
+  position: absolute;
+  left: 149.5px;
+  top: 335px;
+}
+.header-btn-order {
+  background-color: rgba(
+    141.0000067949295,
+    193.00000369548798,
+    38.0000015348196,
+    1
+  );
+  width: 220px;
+  height: 86px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+}
+.header-btn-order span {
+  color: rgba(255, 255, 255, 1);
+  width: 164px;
+  height: 54px;
+  position: absolute;
+  left: 28px;
+  top: 22px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.header-cart {
+  background: url(images/Giohang.png);
+  /* background-color:rgba(255, 255, 255, 1); */
+  width: 33.32000732421875px;
+  height: 21.07999610900879px;
+  position: absolute;
+  left: 1220px;
+  top: 87px;
+}
+.header-nav {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  left: -120px;
+  top: -2px;
+}
+.header-navbar {
+  background-color: rgba(0, 0, 0, 0.5099999904632568);
+  width: 100%;
+  height: 46px;
+  position: absolute;
+  left: 120px;
+  top: 2px;
+}
+.header-logo {
+  width: 127px;
+  height: 127px;
+  position: absolute;
+  left: 207px;
+  top: 70px;
+  background-image: url(images/rectangle_553.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-account {
+  /* background-color:rgba(255, 255, 255, 1); */
+  background: url(images/taikhoan.png);
+  width: 26px;
+  height: 29.730283737182617px;
+  position: absolute;
+  left: 1182px;
+  top: 87px;
+}
+.header-home {
+  width: 129px;
+  height: 27px;
+  position: absolute;
+  left: 181px;
+  top: 8px;
+  cursor: pointer;
+}
+.header-logohome {
+  background: url(images/Vector.png);
+  /* background-color:rgba(255, 255, 255, 1); */
+  width: 30px;
+  height: 26.615018844604492px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header-txthome {
+  color: rgba(255, 255, 255, 1);
+  width: 84px;
+  height: 21px;
+  position: absolute;
+  left: 45px;
+  top: 6px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+.header-rightnav {
+  width: 1159px;
+  height: 105px;
+  position: absolute;
+  left: 329px;
+  top: 11px;
+}
+.header-logointro {
+  background: url(images/carbon_location-company.png);
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.header-txtintro {
+  color: rgba(141.0000067949295, 193.00000369548798, 38.0000015348196, 1);
+  width: 136px;
+  height: 21px;
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+.header-secondnav {
+  width: 475px;
+  height: 35px;
+  position: absolute;
+  left: 684px;
+  top: 70px;
+}
+.header-txtaccount {
+  color: rgba(255, 255, 255, 1);
+  width: 104px;
+  height: 28px;
+  position: absolute;
+  left: 210px;
+  top: 7px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.header-txtcart {
+  color: rgba(255, 255, 255, 1);
+  width: 95px;
+  height: 28px;
+  position: absolute;
+  left: 380px;
+  top: 7px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.header-noti {
+  width: 169px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header-txtnoti {
+  color: rgba(255, 255, 255, 1);
+  width: 145px;
+  height: 28px;
+  position: absolute;
+  left: 24px;
+  top: 4px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.header-logonoti {
+  /* background-color:rgba(255, 255, 255, 1); */
+  background: url(images/Thongbao.png);
+  width: 24px;
+  height: 29.25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header-phone {
+  width: 108px;
+  height: 25px;
+  position: absolute;
+  left: 490px;
+  top: 11.056640625px;
+}
+.header-logophone {
+  background: url(images/bx_bx-phone-call.png);
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.header-txtphone {
+  color: rgba(255, 255, 255, 1);
+  width: 83px;
+  height: 15px;
+  position: absolute;
+  left: 25px;
+  top: 3.943359375px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+.header-checkorder {
+  width: 185px;
+  height: 23px;
+  position: absolute;
+  left: 817px;
+  top: 15px;
+}
+.header-logocheckorder {
+  background: url(images/Group.png);
+  width: 19px;
+  height: 23px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.header-txtcheckorder {
+  color: rgba(255, 255, 255, 1);
+  width: 148px;
+  height: 17px;
+  position: absolute;
+  left: 37px;
+  top: 0px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+.header-receipt {
+  width: 169px;
+  height: 46px;
+  position: absolute;
+  left: 1013px;
+  top: 11px;
+}
+.header-logoreceipt {
+  background: url(images/fluent_receipt-20-regular.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.header-txtreceipt {
+  color: rgba(255, 255, 255, 1);
+  width: 129px;
+  height: 42px;
+  position: absolute;
+  left: 40px;
+  top: 4px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+.header-contact {
+  width: 351px;
+  height: 27px;
+  position: absolute;
+  left: 1195px;
+  top: 11px;
+}
+.header-logocontact {
+  background: url(images/iconoir_home-user.png);
+  width: 30.45245933532715px;
+  height: 27px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.header-txtcontact {
+  color: rgba(255, 255, 255, 1);
+  width: 338.36065673828125px;
+  height: 20px;
+  position: absolute;
+  left: 12.639344215393066px;
+  top: 4px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+/* CSS for section */
+.section-about {
+  width: 100%;
+  height: 867px;
+  position: absolute;
+  left: 0px;
+  top: 780px;
+}
+.section-content {
+  width: 1238px;
+  height: 627px;
+  position: absolute;
+  left: 101px;
+  top: 120px;
+}
+.section-right-content {
+  width: 566px;
+  height: 539.5px;
+  position: absolute;
+  left: 0px;
+  top: 43.75px;
+}
+.section-picture1 {
+  width: 268px;
+  height: 526px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-image: url(images/resize.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-picture2 {
+  width: 268.4975891113281px;
+  height: 239.96389770507812px;
+  position: absolute;
+  left: 297.03533935546875px;
+  top: 0px;
+  background-image: url(images/rectangle_3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-picture3 {
+  width: 268px;
+  height: 297px;
+  position: absolute;
+  left: 298px;
+  top: 242.5px;
+  background-image: url(images/rectangle_4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-leftcontent {
+  width: 482px;
+  height: 329px;
+  position: absolute;
+  left: 718px;
+  top: 149px;
+}
+.section-leftcontent-title {
+  width: 520px;
+  height: 78px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.section-leftcontent-title span {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 520px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: Oleo Script Swash Caps;
+  text-align: left;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: px;
+}
+
+.section-leftcontent-description {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 482px;
+  height: 130px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.section-btn {
+  width: 171px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 276px;
+}
+.section-btn-discover {
+  background-color: rgba(
+    141.0000067949295,
+    193.00000369548798,
+    38.0000015348196,
+    1
+  );
+  width: 171px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+}
+.section-btn-discover span {
+  color: rgba(255, 255, 255, 1);
+  width: 115px;
+  height: 21px;
+  position: absolute;
+  left: 28px;
+  top: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+/* CSS for content */
+.content {
+  width: 100%;
+  height: 952px;
+  position: absolute;
+  left: 0px;
+  top: 1593px;
+}
+.content-head {
+  width: 700px;
+  height: 148px;
+  position: absolute;
+  left: 370px;
+  top: 120px;
+}
+.content-head-title {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 700px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.content-head-text {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 527px;
+  height: 52px;
+  position: absolute;
+  left: 86.5px;
+  top: 78px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.content-border {
+  width: 120px;
+  height: 1px;
+  position: absolute;
+  left: 290px;
+  top: 148px;
+  border-bottom: 2px solid rgba(17, 129, 7, 0.88);
+}
+
+.content-main {
+  width: 1200.4466552734375px;
+  height: 494px;
+  position: absolute;
+  left: 119.77667236328125px;
+  top: 338px;
+}
+.content-main-service {
+  width: 380.1488952636719px;
+  height: 211px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.content-logo-service {
+  background: url(images/dichvu.png);
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 153.07444763183594px;
+  top: 0px;
+}
+
+.content-about-service {
+  width: 380.1488952636719px;
+  height: 112px;
+  position: absolute;
+  left: 0px;
+  top: 99px;
+}
+.content-title-service {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 380.1488952636719px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: UVN Da Lat;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.content-text-service {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 380.1488952636719px;
+  height: 52px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.content-commit {
+  width: 380.1488952636719px;
+  height: 212px;
+  position: absolute;
+  left: 820.2977905273438px;
+  top: 270px;
+}
+.content-logocommit {
+  background: url(images/camket.png);
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 153.07444763183594px;
+  top: 0.5px;
+}
+
+.content-about-commit {
+  width: 380.1488952636719px;
+  height: 112px;
+  position: absolute;
+  left: 0px;
+  top: 99.5px;
+}
+.content-title-commit {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 380.1488952636719px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: UVN Da Lat;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.content-text-commit {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 380.1488952636719px;
+  height: 52px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.content-contact {
+  width: 380.1488952636719px;
+  height: 212px;
+  position: absolute;
+  left: 410.22332763671875px;
+  top: 260px;
+}
+.content-logocontact {
+  background: url(images/tongdai.png);
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 153.07444763183594px;
+  top: 13.5px;
+}
+
+.content-about-contact {
+  width: 380.1488952636719px;
+  height: 86px;
+  position: absolute;
+  left: 0px;
+  top: 112.5px;
+}
+.content-title-contact {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 380.1488952636719px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: UVN Da Lat;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.content-text-contact {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 380.1488952636719px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.content-vision {
+  width: 380.1488952636719px;
+  height: 212px;
+  position: absolute;
+  left: 0px;
+  top: 282px;
+}
+.content-logovision {
+  background: url(images/tamnhin.png);
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 153.07444763183594px;
+  top: -12.5px;
+}
+
+.content-about-vision {
+  width: 380.1488952636719px;
+  height: 138px;
+  position: absolute;
+  left: 0px;
+  top: 86.5px;
+}
+.content-title-vision {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 380.1488952636719px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: UVN Da Lat;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.content-text-vision {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 380.1488952636719px;
+  height: 78px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.content-deli {
+  width: 380.1488952636719px;
+  height: 212px;
+  position: absolute;
+  left: 820.2977905273438px;
+  top: 0px;
+}
+.content-logodeli {
+  background: url(images/giaohang.png);
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 153.07444763183594px;
+  top: 0.5px;
+}
+
+.content-about-deli {
+  width: 380.1488952636719px;
+  height: 112px;
+  position: absolute;
+  left: 0px;
+  top: 99.5px;
+}
+.content-title-deli {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 380.1488952636719px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: UVN Da Lat;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.content-text-deli {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 380.1488952636719px;
+  height: 52px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.content-convenient {
+  width: 380.1488952636719px;
+  height: 212px;
+  position: absolute;
+  left: 410.1488952636719px;
+  top: 10px;
+}
+.content-logoconvenient {
+  background: url(images/tienloi.png);
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 153.07444763183594px;
+  top: -12.5px;
+}
+
+.content-about-convenient {
+  width: 380.1488952636719px;
+  height: 138px;
+  position: absolute;
+  left: 0px;
+  top: 86.5px;
+}
+.content-title-convenient {
+  color: rgba(27.62500025331974, 27.62500025331974, 27.62500025331974, 1);
+  width: 380.1488952636719px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: UVN Da Lat;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.content-text-convenient {
+  color: rgba(106.2499974668026, 106.2499974668026, 106.2499974668026, 1);
+  width: 380.1488952636719px;
+  height: 78px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+/* CSS for footer */
+.footer {
+  width: 100%;
+  height: 753px;
+  position: absolute;
+  left: 0px;
+  top: 2391px;
+}
+.footer-about {
+  background-color: rgba(
+    27.62500025331974,
+    27.62500025331974,
+    27.62500025331974,
+    1
+  );
+  width: 100%;
+  height: 441px;
+  position: absolute;
+  left: 0px;
+  top: 117px;
+}
+.footer-contact {
+  width: 383px;
+  height: 201px;
+  position: absolute;
+  left: 322px;
+  top: 120px;
+}
+.footer-title-contact {
+  color: rgba(255, 255, 255, 1);
+  width: 351px;
+  height: 33px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  font-family: Oleo Script Swash Caps;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.footer-text-contact {
+  width: 351px;
+  height: 106px;
+  position: absolute;
+  left: 16px;
+  top: 79px;
+}
+.footer-call {
+  width: 351px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.footer-txtcall {
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 351px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.footer-txttime {
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 351px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.footer-txtadd {
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 351px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.footer-subcribe {
+  width: 383px;
+  height: 188px;
+  position: absolute;
+  left: 735px;
+  top: 120px;
+}
+.footer-txtsub {
+  color: rgba(255, 255, 255, 1);
+  width: 351px;
+  height: 33px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  font-family: Oleo Script Swash Caps;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.footer-contentsub {
+  width: 351px;
+  height: 93px;
+  position: absolute;
+  left: 16px;
+  top: 79px;
+}
+.footer-input {
+  background-color: rgba(255, 255, 255, 0.07000000029802322);
+  width: 351px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.footer-txtinput {
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 179px;
+  height: 21px;
+  position: absolute;
+  left: 16px;
+  top: 9px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.footer-btn-sub {
+  background-color: rgba(0, 0, 0, 0.20000000298023224);
+  width: 351px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 53px;
+}
+.footer-txtbtn {
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 71px;
+  height: 22px;
+  position: absolute;
+  left: 140px;
+  top: 9px;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.footer-nav {
+  background-color: rgba(
+    43.56250025331974,
+    43.56250025331974,
+    43.56250025331974,
+    1
+  );
+  width: 100%;
+  height: 78px;
+  position: absolute;
+  left: 0px;
+  top: 558px;
+}
+.footer-about-nav {
+  width: 1200px;
+  height: 18px;
+  position: absolute;
+  left: 120px;
+  top: 30px;
+}
+.footer-logonav {
+  width: 174px;
+  height: 18px;
+  position: absolute;
+  left: 513px;
+  top: 0px;
+}
+.footer-logofb {
+  background: url(images/Facebook.png);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.footer-logotwitter {
+  background: url(images/Twitter.png);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 39px;
+  top: 0px;
+}
+
+.footer-logoins {
+  background: url(images/Instagram.png);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 78px;
+  top: 0px;
+}
+
+.footer-logoyt {
+  background: url(images/Youtube.png);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 117px;
+  top: 0px;
+}
+
+.footer-logogg {
+  background: url(images/Google.png);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 156px;
+  top: 0px;
+}
